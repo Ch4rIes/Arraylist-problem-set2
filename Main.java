@@ -25,6 +25,7 @@ class Main {
 				break;
 			}else if(cur + cur == num){
 				System.out.println(cur  + " " + cur);
+				break;
 			}else{
 				cont.add(cur);
 			}
@@ -57,7 +58,7 @@ class Main {
 
   	public static void main(String[] args) {
 		System.out.println(eraSieve(20));
-    	goldbach(120);
+    	goldbach(100);
 		ArrayList<Integer> l1 = new ArrayList<>();
 		ArrayList<Integer> l2 = new ArrayList<>();
 		l1.add(2); l1.add(5); l1.add(8); l1.add(9); l2.add(2); l2.add(5); l2.add(0);
